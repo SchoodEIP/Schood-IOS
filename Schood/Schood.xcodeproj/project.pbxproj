@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D0323B32A0184C50038C59B /* HelpNumbersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0323B22A0184C50038C59B /* HelpNumbersList.swift */; };
+		7D0323B62A0193A80038C59B /* DrugInfoServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0323B52A0193A80038C59B /* DrugInfoServiceView.swift */; };
+		7D0323B92A01944A0038C59B /* HelpNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0323B82A01944A0038C59B /* HelpNumbers.swift */; };
+		7D0323BB2A01946D0038C59B /* TollFreeNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0323BA2A01946D0038C59B /* TollFreeNumbers.swift */; };
+		7D0323BD2A019DE60038C59B /* TollFreeNumbersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0323BC2A019DE60038C59B /* TollFreeNumbersListView.swift */; };
+		7D0323C72A01A8220038C59B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0323C62A01A8220038C59B /* Data.swift */; };
+		7D0323C92A01AD530038C59B /* TollFreeNumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0323C82A01AD530038C59B /* TollFreeNumbersView.swift */; };
+		7D0323CE2A01B0060038C59B /* MessageCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0323CD2A01B0060038C59B /* MessageCenterView.swift */; };
+		7D057BC02A0D97D3003B4D44 /* HistoricSurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D057BBF2A0D97D3003B4D44 /* HistoricSurveyView.swift */; };
+		7D0D1BA42A10F8AF001EF6B0 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0D1BA32A10F8AF001EF6B0 /* MessageView.swift */; };
+		7D1636A929F55DEA00580B83 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1636A829F55DEA00580B83 /* HomePageView.swift */; };
+		7D24A2A329FD5CED00448BA7 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D24A2A229FD5CED00448BA7 /* CustomTabView.swift */; };
+		7D24A2A529FD6FD300448BA7 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D24A2A429FD6FD300448BA7 /* CustomNavigationBar.swift */; };
+		7D4131AF29FBBAB4001E7C80 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4131AE29FBBAB4001E7C80 /* ProfileView.swift */; };
+		7D4131B129FBBBB3001E7C80 /* HelpNumberCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4131B029FBBBB3001E7C80 /* HelpNumberCategoriesView.swift */; };
+		7D53C7AC2A066797006D61CF /* ConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D53C7AB2A066797006D61CF /* ConnectionView.swift */; };
+		7D60260929EDF2DE00AA4D52 /* SchoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D60260829EDF2DE00AA4D52 /* SchoodApp.swift */; };
+		7D60260B29EDF2DE00AA4D52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D60260A29EDF2DE00AA4D52 /* ContentView.swift */; };
+		7D60260D29EDF2DF00AA4D52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D60260C29EDF2DF00AA4D52 /* Assets.xcassets */; };
+		7D60261029EDF2DF00AA4D52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D60260F29EDF2DF00AA4D52 /* Preview Assets.xcassets */; };
+		7D60261229EDF2DF00AA4D52 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D60261129EDF2DF00AA4D52 /* Persistence.swift */; };
+		7D60261529EDF2DF00AA4D52 /* Schood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D60261329EDF2DF00AA4D52 /* Schood.xcdatamodeld */; };
+		7D60261F29EDF2DF00AA4D52 /* SchoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D60261E29EDF2DF00AA4D52 /* SchoodTests.swift */; };
+		7D60262929EDF2DF00AA4D52 /* SchoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D60262829EDF2DF00AA4D52 /* SchoodUITests.swift */; };
+		7D60262B29EDF2DF00AA4D52 /* SchoodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D60262A29EDF2DF00AA4D52 /* SchoodUITestsLaunchTests.swift */; };
+		7D68B8EA29EF409D0081FE7C /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D68B8E929EF409D0081FE7C /* Design.swift */; };
+		7DBBC8B529F909860052BD68 /* SurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBBC8B429F909860052BD68 /* SurveyView.swift */; };
+		7DBBC8B929FA6F4F0052BD68 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBBC8B829FA6F4F0052BD68 /* StatisticView.swift */; };
+		7DBBC8BB29FA6F5F0052BD68 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBBC8BA29FA6F5F0052BD68 /* AlertView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D60261B29EDF2DF00AA4D52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D6025FD29EDF2DE00AA4D52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D60260429EDF2DE00AA4D52;
+			remoteInfo = Schood;
+		};
+		7D60262529EDF2DF00AA4D52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D6025FD29EDF2DE00AA4D52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D60260429EDF2DE00AA4D52;
+			remoteInfo = Schood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D0323B22A0184C50038C59B /* HelpNumbersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpNumbersList.swift; sourceTree = "<group>"; };
+		7D0323B52A0193A80038C59B /* DrugInfoServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugInfoServiceView.swift; sourceTree = "<group>"; };
+		7D0323B82A01944A0038C59B /* HelpNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpNumbers.swift; sourceTree = "<group>"; };
+		7D0323BA2A01946D0038C59B /* TollFreeNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TollFreeNumbers.swift; sourceTree = "<group>"; };
+		7D0323BC2A019DE60038C59B /* TollFreeNumbersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TollFreeNumbersListView.swift; sourceTree = "<group>"; };
+		7D0323C22A01A1470038C59B /* TollFreeNumbers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = TollFreeNumbers.json; path = Schood/HelpNumbers/TollFreeNumbers.json; sourceTree = SOURCE_ROOT; };
+		7D0323C62A01A8220038C59B /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		7D0323C82A01AD530038C59B /* TollFreeNumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TollFreeNumbersView.swift; sourceTree = "<group>"; };
+		7D0323CD2A01B0060038C59B /* MessageCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCenterView.swift; sourceTree = "<group>"; };
+		7D057BBF2A0D97D3003B4D44 /* HistoricSurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricSurveyView.swift; sourceTree = "<group>"; };
+		7D0D1BA32A10F8AF001EF6B0 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		7D1636A829F55DEA00580B83 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		7D24A2A229FD5CED00448BA7 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		7D24A2A429FD6FD300448BA7 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		7D4131AE29FBBAB4001E7C80 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		7D4131B029FBBBB3001E7C80 /* HelpNumberCategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpNumberCategoriesView.swift; sourceTree = "<group>"; };
+		7D53C7AB2A066797006D61CF /* ConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionView.swift; sourceTree = "<group>"; };
+		7D60260529EDF2DE00AA4D52 /* Schood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D60260829EDF2DE00AA4D52 /* SchoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoodApp.swift; sourceTree = "<group>"; };
+		7D60260A29EDF2DE00AA4D52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7D60260C29EDF2DF00AA4D52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D60260F29EDF2DF00AA4D52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D60261129EDF2DF00AA4D52 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		7D60261429EDF2DF00AA4D52 /* Schood.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Schood.xcdatamodel; sourceTree = "<group>"; };
+		7D60261A29EDF2DF00AA4D52 /* SchoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D60261E29EDF2DF00AA4D52 /* SchoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoodTests.swift; sourceTree = "<group>"; };
+		7D60262429EDF2DF00AA4D52 /* SchoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D60262829EDF2DF00AA4D52 /* SchoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoodUITests.swift; sourceTree = "<group>"; };
+		7D60262A29EDF2DF00AA4D52 /* SchoodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7D68B8E929EF409D0081FE7C /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		7DBBC8B429F909860052BD68 /* SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyView.swift; sourceTree = "<group>"; };
+		7DBBC8B829FA6F4F0052BD68 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
+		7DBBC8BA29FA6F5F0052BD68 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D60260229EDF2DE00AA4D52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D60261729EDF2DF00AA4D52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D60262129EDF2DF00AA4D52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D0323B12A0184940038C59B /* HelpNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				7D0323B22A0184C50038C59B /* HelpNumbersList.swift */,
+				7D0323B82A01944A0038C59B /* HelpNumbers.swift */,
+			);
+			path = HelpNumbers;
+			sourceTree = "<group>";
+		};
+		7D0323B42A0193860038C59B /* TollFreeNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				7D0323B52A0193A80038C59B /* DrugInfoServiceView.swift */,
+				7D0323BC2A019DE60038C59B /* TollFreeNumbersListView.swift */,
+				7D0323C82A01AD530038C59B /* TollFreeNumbersView.swift */,
+			);
+			path = TollFreeNumbers;
+			sourceTree = "<group>";
+		};
+		7D0323BE2A019FFA0038C59B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7D0323C22A01A1470038C59B /* TollFreeNumbers.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		7D0323C32A01A3B10038C59B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7D0323BA2A01946D0038C59B /* TollFreeNumbers.swift */,
+				7D0323C62A01A8220038C59B /* Data.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7D0323CA2A01ADD00038C59B /* HealthProfessionalsNumbers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HealthProfessionalsNumbers;
+			sourceTree = "<group>";
+		};
+		7D0323CB2A01ADEA0038C59B /* EmergencyNumbers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EmergencyNumbers;
+			sourceTree = "<group>";
+		};
+		7D0323CC2A01AF520038C59B /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				7D0323CD2A01B0060038C59B /* MessageCenterView.swift */,
+				7D0D1BA32A10F8AF001EF6B0 /* MessageView.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		7D4131AD29FBBA9D001E7C80 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7D4131AE29FBBAB4001E7C80 /* ProfileView.swift */,
+				7D53C7AB2A066797006D61CF /* ConnectionView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		7D5B0ABE29F1E7F800873EBE /* HelpNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				7D4131B029FBBBB3001E7C80 /* HelpNumberCategoriesView.swift */,
+				7D0323CB2A01ADEA0038C59B /* EmergencyNumbers */,
+				7D0323CA2A01ADD00038C59B /* HealthProfessionalsNumbers */,
+				7D0323B42A0193860038C59B /* TollFreeNumbers */,
+			);
+			path = HelpNumbers;
+			sourceTree = "<group>";
+		};
+		7D6025FC29EDF2DE00AA4D52 = {
+			isa = PBXGroup;
+			children = (
+				7D60260729EDF2DE00AA4D52 /* Schood */,
+				7D60261D29EDF2DF00AA4D52 /* SchoodTests */,
+				7D60262729EDF2DF00AA4D52 /* SchoodUITests */,
+				7D60260629EDF2DE00AA4D52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D60260629EDF2DE00AA4D52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D60260529EDF2DE00AA4D52 /* Schood.app */,
+				7D60261A29EDF2DF00AA4D52 /* SchoodTests.xctest */,
+				7D60262429EDF2DF00AA4D52 /* SchoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D60260729EDF2DE00AA4D52 /* Schood */ = {
+			isa = PBXGroup;
+			children = (
+				7D60260A29EDF2DE00AA4D52 /* ContentView.swift */,
+				7D60261129EDF2DF00AA4D52 /* Persistence.swift */,
+				7D60260829EDF2DE00AA4D52 /* SchoodApp.swift */,
+				7D60260C29EDF2DF00AA4D52 /* Assets.xcassets */,
+				7D68B8E829EF40830081FE7C /* Component */,
+				7D0323B12A0184940038C59B /* HelpNumbers */,
+				7D0323C32A01A3B10038C59B /* Models */,
+				7D60260E29EDF2DF00AA4D52 /* Preview Content */,
+				7D0323BE2A019FFA0038C59B /* Resource */,
+				7D60261329EDF2DF00AA4D52 /* Schood.xcdatamodeld */,
+				7D92FC9D29EF21C600C2EF81 /* View */,
+			);
+			path = Schood;
+			sourceTree = "<group>";
+		};
+		7D60260E29EDF2DF00AA4D52 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7D60260F29EDF2DF00AA4D52 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7D60261D29EDF2DF00AA4D52 /* SchoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D60261E29EDF2DF00AA4D52 /* SchoodTests.swift */,
+			);
+			path = SchoodTests;
+			sourceTree = "<group>";
+		};
+		7D60262729EDF2DF00AA4D52 /* SchoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D60262829EDF2DF00AA4D52 /* SchoodUITests.swift */,
+				7D60262A29EDF2DF00AA4D52 /* SchoodUITestsLaunchTests.swift */,
+			);
+			path = SchoodUITests;
+			sourceTree = "<group>";
+		};
+		7D68B8E829EF40830081FE7C /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				7D68B8E929EF409D0081FE7C /* Design.swift */,
+				7D24A2A229FD5CED00448BA7 /* CustomTabView.swift */,
+				7D24A2A429FD6FD300448BA7 /* CustomNavigationBar.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		7D92FC9D29EF21C600C2EF81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7D1636A829F55DEA00580B83 /* HomePageView.swift */,
+				7DBBC8B629FA6E7A0052BD68 /* Alerts */,
+				7D5B0ABE29F1E7F800873EBE /* HelpNumbers */,
+				7D0323CC2A01AF520038C59B /* Messages */,
+				7D4131AD29FBBA9D001E7C80 /* Profile */,
+				7DBBC8B729FA6E860052BD68 /* Statistics */,
+				7DBBC8B329F909750052BD68 /* Surveys */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7DBBC8B329F909750052BD68 /* Surveys */ = {
+			isa = PBXGroup;
+			children = (
+				7DBBC8B429F909860052BD68 /* SurveyView.swift */,
+				7D057BBF2A0D97D3003B4D44 /* HistoricSurveyView.swift */,
+			);
+			path = Surveys;
+			sourceTree = "<group>";
+		};
+		7DBBC8B629FA6E7A0052BD68 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				7DBBC8BA29FA6F5F0052BD68 /* AlertView.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		7DBBC8B729FA6E860052BD68 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				7DBBC8B829FA6F4F0052BD68 /* StatisticView.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D60260429EDF2DE00AA4D52 /* Schood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D60262E29EDF2DF00AA4D52 /* Build configuration list for PBXNativeTarget "Schood" */;
+			buildPhases = (
+				7D60260129EDF2DE00AA4D52 /* Sources */,
+				7D60260229EDF2DE00AA4D52 /* Frameworks */,
+				7D60260329EDF2DE00AA4D52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Schood;
+			productName = Schood;
+			productReference = 7D60260529EDF2DE00AA4D52 /* Schood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D60261929EDF2DF00AA4D52 /* SchoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D60263129EDF2DF00AA4D52 /* Build configuration list for PBXNativeTarget "SchoodTests" */;
+			buildPhases = (
+				7D60261629EDF2DF00AA4D52 /* Sources */,
+				7D60261729EDF2DF00AA4D52 /* Frameworks */,
+				7D60261829EDF2DF00AA4D52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D60261C29EDF2DF00AA4D52 /* PBXTargetDependency */,
+			);
+			name = SchoodTests;
+			productName = SchoodTests;
+			productReference = 7D60261A29EDF2DF00AA4D52 /* SchoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D60262329EDF2DF00AA4D52 /* SchoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D60263429EDF2DF00AA4D52 /* Build configuration list for PBXNativeTarget "SchoodUITests" */;
+			buildPhases = (
+				7D60262029EDF2DF00AA4D52 /* Sources */,
+				7D60262129EDF2DF00AA4D52 /* Frameworks */,
+				7D60262229EDF2DF00AA4D52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D60262629EDF2DF00AA4D52 /* PBXTargetDependency */,
+			);
+			name = SchoodUITests;
+			productName = SchoodUITests;
+			productReference = 7D60262429EDF2DF00AA4D52 /* SchoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D6025FD29EDF2DE00AA4D52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7D60260429EDF2DE00AA4D52 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					7D60261929EDF2DF00AA4D52 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 7D60260429EDF2DE00AA4D52;
+					};
+					7D60262329EDF2DF00AA4D52 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 7D60260429EDF2DE00AA4D52;
+					};
+				};
+			};
+			buildConfigurationList = 7D60260029EDF2DE00AA4D52 /* Build configuration list for PBXProject "Schood" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D6025FC29EDF2DE00AA4D52;
+			productRefGroup = 7D60260629EDF2DE00AA4D52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D60260429EDF2DE00AA4D52 /* Schood */,
+				7D60261929EDF2DF00AA4D52 /* SchoodTests */,
+				7D60262329EDF2DF00AA4D52 /* SchoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D60260329EDF2DE00AA4D52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D60261029EDF2DF00AA4D52 /* Preview Assets.xcassets in Resources */,
+				7D60260D29EDF2DF00AA4D52 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D60261829EDF2DF00AA4D52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D60262229EDF2DF00AA4D52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D60260129EDF2DE00AA4D52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0323CE2A01B0060038C59B /* MessageCenterView.swift in Sources */,
+				7D60261229EDF2DF00AA4D52 /* Persistence.swift in Sources */,
+				7D53C7AC2A066797006D61CF /* ConnectionView.swift in Sources */,
+				7DBBC8B929FA6F4F0052BD68 /* StatisticView.swift in Sources */,
+				7D0323B92A01944A0038C59B /* HelpNumbers.swift in Sources */,
+				7D60260B29EDF2DE00AA4D52 /* ContentView.swift in Sources */,
+				7DBBC8B529F909860052BD68 /* SurveyView.swift in Sources */,
+				7D4131B129FBBBB3001E7C80 /* HelpNumberCategoriesView.swift in Sources */,
+				7D24A2A529FD6FD300448BA7 /* CustomNavigationBar.swift in Sources */,
+				7D60260929EDF2DE00AA4D52 /* SchoodApp.swift in Sources */,
+				7D057BC02A0D97D3003B4D44 /* HistoricSurveyView.swift in Sources */,
+				7D0323BB2A01946D0038C59B /* TollFreeNumbers.swift in Sources */,
+				7D0D1BA42A10F8AF001EF6B0 /* MessageView.swift in Sources */,
+				7D68B8EA29EF409D0081FE7C /* Design.swift in Sources */,
+				7D0323C72A01A8220038C59B /* Data.swift in Sources */,
+				7DBBC8BB29FA6F5F0052BD68 /* AlertView.swift in Sources */,
+				7D60261529EDF2DF00AA4D52 /* Schood.xcdatamodeld in Sources */,
+				7D24A2A329FD5CED00448BA7 /* CustomTabView.swift in Sources */,
+				7D0323C92A01AD530038C59B /* TollFreeNumbersView.swift in Sources */,
+				7D0323B32A0184C50038C59B /* HelpNumbersList.swift in Sources */,
+				7D1636A929F55DEA00580B83 /* HomePageView.swift in Sources */,
+				7D0323BD2A019DE60038C59B /* TollFreeNumbersListView.swift in Sources */,
+				7D0323B62A0193A80038C59B /* DrugInfoServiceView.swift in Sources */,
+				7D4131AF29FBBAB4001E7C80 /* ProfileView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D60261629EDF2DF00AA4D52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D60261F29EDF2DF00AA4D52 /* SchoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D60262029EDF2DF00AA4D52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D60262B29EDF2DF00AA4D52 /* SchoodUITestsLaunchTests.swift in Sources */,
+				7D60262929EDF2DF00AA4D52 /* SchoodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D60261C29EDF2DF00AA4D52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D60260429EDF2DE00AA4D52 /* Schood */;
+			targetProxy = 7D60261B29EDF2DF00AA4D52 /* PBXContainerItemProxy */;
+		};
+		7D60262629EDF2DF00AA4D52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D60260429EDF2DE00AA4D52 /* Schood */;
+			targetProxy = 7D60262529EDF2DF00AA4D52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7D60262C29EDF2DF00AA4D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D60262D29EDF2DF00AA4D52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D60262F29EDF2DF00AA4D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Schood/Preview Content\"";
+				DEVELOPMENT_TEAM = 7BQ5RB9A69;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = schood.com.Schood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D60263029EDF2DF00AA4D52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Schood/Preview Content\"";
+				DEVELOPMENT_TEAM = 7BQ5RB9A69;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = schood.com.Schood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7D60263229EDF2DF00AA4D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BQ5RB9A69;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = schood.com.SchoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Schood.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Schood";
+			};
+			name = Debug;
+		};
+		7D60263329EDF2DF00AA4D52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BQ5RB9A69;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = schood.com.SchoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Schood.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Schood";
+			};
+			name = Release;
+		};
+		7D60263529EDF2DF00AA4D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BQ5RB9A69;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = schood.com.SchoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Schood;
+			};
+			name = Debug;
+		};
+		7D60263629EDF2DF00AA4D52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BQ5RB9A69;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = schood.com.SchoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Schood;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D60260029EDF2DE00AA4D52 /* Build configuration list for PBXProject "Schood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D60262C29EDF2DF00AA4D52 /* Debug */,
+				7D60262D29EDF2DF00AA4D52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D60262E29EDF2DF00AA4D52 /* Build configuration list for PBXNativeTarget "Schood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D60262F29EDF2DF00AA4D52 /* Debug */,
+				7D60263029EDF2DF00AA4D52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D60263129EDF2DF00AA4D52 /* Build configuration list for PBXNativeTarget "SchoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D60263229EDF2DF00AA4D52 /* Debug */,
+				7D60263329EDF2DF00AA4D52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D60263429EDF2DF00AA4D52 /* Build configuration list for PBXNativeTarget "SchoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D60263529EDF2DF00AA4D52 /* Debug */,
+				7D60263629EDF2DF00AA4D52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7D60261329EDF2DF00AA4D52 /* Schood.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7D60261429EDF2DF00AA4D52 /* Schood.xcdatamodel */,
+			);
+			currentVersion = 7D60261429EDF2DF00AA4D52 /* Schood.xcdatamodel */;
+			path = Schood.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7D6025FD29EDF2DE00AA4D52 /* Project object */;
+}
