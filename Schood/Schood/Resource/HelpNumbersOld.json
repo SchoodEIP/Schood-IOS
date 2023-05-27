@@ -1,7 +1,7 @@
 [
     {
         "name": "Drug Info Service",
-        "description": "You can reach Drogues info service at 0 800 23 13 13, from 8am to 2am, 7 days a week. Your call is anonymous and free. Whether you are directly or indirectly concerned by drug use, do not hesitate to call Drogues info service, you will find Professionals trained in the problems of drug use and dependence A non-judgmental and confidential listening Precise information, personalized help",
+        "description": "You can reach Drogues info service at 0 800 23 13 13, from 8am to 2am, 7 days a week. \n\nYour call is anonymous and free. Whether you are directly or indirectly concerned by drug use, do not hesitate to call Drogues info service, you will find Professionals trained in the problems of drug use and dependence A non-judgmental and confidential listening Precise information, personalized help",
         "phone_number": "0 800 23 13 13",
         "category": "TollFreeNumber"
     },
@@ -9,19 +9,19 @@
         "name": "Cannabis Listening",
         "description": "Insert description",
         "phone_number": "0",
-        "category": "TollFreeNumbers"
+        "category": "TollFreeNumber"
     },
     {
         "name": "Alchool Listening",
         "description": "Insert description",
         "phone_number": "0",
-        "category": "TollFreeNumbers"
+        "category": "TollFreeNumber"
     },
     {
         "name": "Tabacco Listening",
         "description": "Insert description",
         "phone_number": "0",
-        "category": "TollFreeNumbers"
+        "category": "TollFreeNumber"
     },
     {
         "name": "Aids Info Service",

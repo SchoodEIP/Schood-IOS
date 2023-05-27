@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		7D0323B32A0184C50038C59B /* HelpNumbersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0323B22A0184C50038C59B /* HelpNumbersList.swift */; };
-		7D0323B62A0193A80038C59B /* DrugInfoServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0323B52A0193A80038C59B /* DrugInfoServiceView.swift */; };
 		7D0323B92A01944A0038C59B /* HelpNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0323B82A01944A0038C59B /* HelpNumbers.swift */; };
 		7D0323BB2A01946D0038C59B /* TollFreeNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0323BA2A01946D0038C59B /* TollFreeNumbers.swift */; };
-		7D0323BD2A019DE60038C59B /* TollFreeNumbersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0323BC2A019DE60038C59B /* TollFreeNumbersListView.swift */; };
 		7D0323C72A01A8220038C59B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0323C62A01A8220038C59B /* Data.swift */; };
-		7D0323C92A01AD530038C59B /* TollFreeNumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0323C82A01AD530038C59B /* TollFreeNumbersView.swift */; };
 		7D0323CE2A01B0060038C59B /* MessageCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0323CD2A01B0060038C59B /* MessageCenterView.swift */; };
 		7D057BC02A0D97D3003B4D44 /* HistoricSurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D057BBF2A0D97D3003B4D44 /* HistoricSurveyView.swift */; };
 		7D0D1BA42A10F8AF001EF6B0 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0D1BA32A10F8AF001EF6B0 /* MessageView.swift */; };
 		7D1636A929F55DEA00580B83 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1636A829F55DEA00580B83 /* HomePageView.swift */; };
+		7D19159A2A1EA9D7005459E4 /* NumberInfoParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1915992A1EA9D7005459E4 /* NumberInfoParser.swift */; };
+		7D19159E2A1EAF39005459E4 /* HelpNumberDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D19159D2A1EAF39005459E4 /* HelpNumberDetailView.swift */; };
+		7D1915A02A1EB8AB005459E4 /* HelpNumberSubCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D19159F2A1EB8AB005459E4 /* HelpNumberSubCategoriesView.swift */; };
 		7D24A2A329FD5CED00448BA7 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D24A2A229FD5CED00448BA7 /* CustomTabView.swift */; };
 		7D24A2A529FD6FD300448BA7 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D24A2A429FD6FD300448BA7 /* CustomNavigationBar.swift */; };
 		7D4131AF29FBBAB4001E7C80 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4131AE29FBBAB4001E7C80 /* ProfileView.swift */; };
@@ -36,6 +36,8 @@
 		7DBBC8B529F909860052BD68 /* SurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBBC8B429F909860052BD68 /* SurveyView.swift */; };
 		7DBBC8B929FA6F4F0052BD68 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBBC8B829FA6F4F0052BD68 /* StatisticView.swift */; };
 		7DBBC8BB29FA6F5F0052BD68 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBBC8BA29FA6F5F0052BD68 /* AlertView.swift */; };
+		7DCD9F4F2A1EC83600BC69D8 /* HelpNumbers.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DCD9F4E2A1EC83600BC69D8 /* HelpNumbers.json */; };
+		7DCD9F512A1EC8A300BC69D8 /* HelpNumbersOld.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DCD9F502A1EC8A300BC69D8 /* HelpNumbersOld.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,17 +59,16 @@
 
 /* Begin PBXFileReference section */
 		7D0323B22A0184C50038C59B /* HelpNumbersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpNumbersList.swift; sourceTree = "<group>"; };
-		7D0323B52A0193A80038C59B /* DrugInfoServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugInfoServiceView.swift; sourceTree = "<group>"; };
 		7D0323B82A01944A0038C59B /* HelpNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpNumbers.swift; sourceTree = "<group>"; };
 		7D0323BA2A01946D0038C59B /* TollFreeNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TollFreeNumbers.swift; sourceTree = "<group>"; };
-		7D0323BC2A019DE60038C59B /* TollFreeNumbersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TollFreeNumbersListView.swift; sourceTree = "<group>"; };
-		7D0323C22A01A1470038C59B /* TollFreeNumbers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = TollFreeNumbers.json; path = Schood/HelpNumbers/TollFreeNumbers.json; sourceTree = SOURCE_ROOT; };
 		7D0323C62A01A8220038C59B /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		7D0323C82A01AD530038C59B /* TollFreeNumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TollFreeNumbersView.swift; sourceTree = "<group>"; };
 		7D0323CD2A01B0060038C59B /* MessageCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCenterView.swift; sourceTree = "<group>"; };
 		7D057BBF2A0D97D3003B4D44 /* HistoricSurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricSurveyView.swift; sourceTree = "<group>"; };
 		7D0D1BA32A10F8AF001EF6B0 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		7D1636A829F55DEA00580B83 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		7D1915992A1EA9D7005459E4 /* NumberInfoParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberInfoParser.swift; sourceTree = "<group>"; };
+		7D19159D2A1EAF39005459E4 /* HelpNumberDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpNumberDetailView.swift; sourceTree = "<group>"; };
+		7D19159F2A1EB8AB005459E4 /* HelpNumberSubCategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpNumberSubCategoriesView.swift; sourceTree = "<group>"; };
 		7D24A2A229FD5CED00448BA7 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		7D24A2A429FD6FD300448BA7 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
 		7D4131AE29FBBAB4001E7C80 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
@@ -89,6 +90,8 @@
 		7DBBC8B429F909860052BD68 /* SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyView.swift; sourceTree = "<group>"; };
 		7DBBC8B829FA6F4F0052BD68 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
 		7DBBC8BA29FA6F5F0052BD68 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		7DCD9F4E2A1EC83600BC69D8 /* HelpNumbers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HelpNumbers.json; sourceTree = "<group>"; };
+		7DCD9F502A1EC8A300BC69D8 /* HelpNumbersOld.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HelpNumbersOld.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,20 +128,11 @@
 			path = HelpNumbers;
 			sourceTree = "<group>";
 		};
-		7D0323B42A0193860038C59B /* TollFreeNumbers */ = {
-			isa = PBXGroup;
-			children = (
-				7D0323B52A0193A80038C59B /* DrugInfoServiceView.swift */,
-				7D0323BC2A019DE60038C59B /* TollFreeNumbersListView.swift */,
-				7D0323C82A01AD530038C59B /* TollFreeNumbersView.swift */,
-			);
-			path = TollFreeNumbers;
-			sourceTree = "<group>";
-		};
 		7D0323BE2A019FFA0038C59B /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				7D0323C22A01A1470038C59B /* TollFreeNumbers.json */,
+				7DCD9F502A1EC8A300BC69D8 /* HelpNumbersOld.json */,
+				7DCD9F4E2A1EC83600BC69D8 /* HelpNumbers.json */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -150,20 +144,6 @@
 				7D0323C62A01A8220038C59B /* Data.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		7D0323CA2A01ADD00038C59B /* HealthProfessionalsNumbers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = HealthProfessionalsNumbers;
-			sourceTree = "<group>";
-		};
-		7D0323CB2A01ADEA0038C59B /* EmergencyNumbers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = EmergencyNumbers;
 			sourceTree = "<group>";
 		};
 		7D0323CC2A01AF520038C59B /* Messages */ = {
@@ -188,9 +168,9 @@
 			isa = PBXGroup;
 			children = (
 				7D4131B029FBBBB3001E7C80 /* HelpNumberCategoriesView.swift */,
-				7D0323CB2A01ADEA0038C59B /* EmergencyNumbers */,
-				7D0323CA2A01ADD00038C59B /* HealthProfessionalsNumbers */,
-				7D0323B42A0193860038C59B /* TollFreeNumbers */,
+				7D19159D2A1EAF39005459E4 /* HelpNumberDetailView.swift */,
+				7D1915992A1EA9D7005459E4 /* NumberInfoParser.swift */,
+				7D19159F2A1EB8AB005459E4 /* HelpNumberSubCategoriesView.swift */,
 			);
 			path = HelpNumbers;
 			sourceTree = "<group>";
@@ -412,7 +392,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D60261029EDF2DF00AA4D52 /* Preview Assets.xcassets in Resources */,
+				7DCD9F4F2A1EC83600BC69D8 /* HelpNumbers.json in Resources */,
 				7D60260D29EDF2DF00AA4D52 /* Assets.xcassets in Resources */,
+				7DCD9F512A1EC8A300BC69D8 /* HelpNumbersOld.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +420,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D0323CE2A01B0060038C59B /* MessageCenterView.swift in Sources */,
+				7D19159A2A1EA9D7005459E4 /* NumberInfoParser.swift in Sources */,
 				7D60261229EDF2DF00AA4D52 /* Persistence.swift in Sources */,
 				7D53C7AC2A066797006D61CF /* ConnectionView.swift in Sources */,
 				7DBBC8B929FA6F4F0052BD68 /* StatisticView.swift in Sources */,
@@ -447,6 +430,7 @@
 				7D4131B129FBBBB3001E7C80 /* HelpNumberCategoriesView.swift in Sources */,
 				7D24A2A529FD6FD300448BA7 /* CustomNavigationBar.swift in Sources */,
 				7D60260929EDF2DE00AA4D52 /* SchoodApp.swift in Sources */,
+				7D1915A02A1EB8AB005459E4 /* HelpNumberSubCategoriesView.swift in Sources */,
 				7D057BC02A0D97D3003B4D44 /* HistoricSurveyView.swift in Sources */,
 				7D0323BB2A01946D0038C59B /* TollFreeNumbers.swift in Sources */,
 				7D0D1BA42A10F8AF001EF6B0 /* MessageView.swift in Sources */,
@@ -455,11 +439,9 @@
 				7DBBC8BB29FA6F5F0052BD68 /* AlertView.swift in Sources */,
 				7D60261529EDF2DF00AA4D52 /* Schood.xcdatamodeld in Sources */,
 				7D24A2A329FD5CED00448BA7 /* CustomTabView.swift in Sources */,
-				7D0323C92A01AD530038C59B /* TollFreeNumbersView.swift in Sources */,
+				7D19159E2A1EAF39005459E4 /* HelpNumberDetailView.swift in Sources */,
 				7D0323B32A0184C50038C59B /* HelpNumbersList.swift in Sources */,
 				7D1636A929F55DEA00580B83 /* HomePageView.swift in Sources */,
-				7D0323BD2A019DE60038C59B /* TollFreeNumbersListView.swift in Sources */,
-				7D0323B62A0193A80038C59B /* DrugInfoServiceView.swift in Sources */,
 				7D4131AF29FBBAB4001E7C80 /* ProfileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
