@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D0323B32A0184C50038C59B /* HelpNumbersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0323B22A0184C50038C59B /* HelpNumbersList.swift */; };
-		7D0323B92A01944A0038C59B /* HelpNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0323B82A01944A0038C59B /* HelpNumbers.swift */; };
-		7D0323BB2A01946D0038C59B /* TollFreeNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0323BA2A01946D0038C59B /* TollFreeNumbers.swift */; };
-		7D0323C72A01A8220038C59B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0323C62A01A8220038C59B /* Data.swift */; };
 		7D0323CE2A01B0060038C59B /* MessageCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0323CD2A01B0060038C59B /* MessageCenterView.swift */; };
 		7D057BC02A0D97D3003B4D44 /* HistoricSurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D057BBF2A0D97D3003B4D44 /* HistoricSurveyView.swift */; };
 		7D0D1BA42A10F8AF001EF6B0 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0D1BA32A10F8AF001EF6B0 /* MessageView.swift */; };
@@ -19,7 +15,6 @@
 		7D19159E2A1EAF39005459E4 /* HelpNumberDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D19159D2A1EAF39005459E4 /* HelpNumberDetailView.swift */; };
 		7D1915A02A1EB8AB005459E4 /* HelpNumberSubCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D19159F2A1EB8AB005459E4 /* HelpNumberSubCategoriesView.swift */; };
 		7D24A2A329FD5CED00448BA7 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D24A2A229FD5CED00448BA7 /* CustomTabView.swift */; };
-		7D24A2A529FD6FD300448BA7 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D24A2A429FD6FD300448BA7 /* CustomNavigationBar.swift */; };
 		7D4131AF29FBBAB4001E7C80 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4131AE29FBBAB4001E7C80 /* ProfileView.swift */; };
 		7D4131B129FBBBB3001E7C80 /* HelpNumberCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4131B029FBBBB3001E7C80 /* HelpNumberCategoriesView.swift */; };
 		7D53C7AC2A066797006D61CF /* ConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D53C7AB2A066797006D61CF /* ConnectionView.swift */; };
@@ -32,7 +27,6 @@
 		7D60261F29EDF2DF00AA4D52 /* SchoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D60261E29EDF2DF00AA4D52 /* SchoodTests.swift */; };
 		7D60262929EDF2DF00AA4D52 /* SchoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D60262829EDF2DF00AA4D52 /* SchoodUITests.swift */; };
 		7D60262B29EDF2DF00AA4D52 /* SchoodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D60262A29EDF2DF00AA4D52 /* SchoodUITestsLaunchTests.swift */; };
-		7D68B8EA29EF409D0081FE7C /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D68B8E929EF409D0081FE7C /* Design.swift */; };
 		7DBBC8B529F909860052BD68 /* SurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBBC8B429F909860052BD68 /* SurveyView.swift */; };
 		7DBBC8B929FA6F4F0052BD68 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBBC8B829FA6F4F0052BD68 /* StatisticView.swift */; };
 		7DBBC8BB29FA6F5F0052BD68 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBBC8BA29FA6F5F0052BD68 /* AlertView.swift */; };
@@ -58,10 +52,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7D0323B22A0184C50038C59B /* HelpNumbersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpNumbersList.swift; sourceTree = "<group>"; };
-		7D0323B82A01944A0038C59B /* HelpNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpNumbers.swift; sourceTree = "<group>"; };
-		7D0323BA2A01946D0038C59B /* TollFreeNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TollFreeNumbers.swift; sourceTree = "<group>"; };
-		7D0323C62A01A8220038C59B /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		7D0323CD2A01B0060038C59B /* MessageCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCenterView.swift; sourceTree = "<group>"; };
 		7D057BBF2A0D97D3003B4D44 /* HistoricSurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricSurveyView.swift; sourceTree = "<group>"; };
 		7D0D1BA32A10F8AF001EF6B0 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
@@ -70,7 +60,6 @@
 		7D19159D2A1EAF39005459E4 /* HelpNumberDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpNumberDetailView.swift; sourceTree = "<group>"; };
 		7D19159F2A1EB8AB005459E4 /* HelpNumberSubCategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpNumberSubCategoriesView.swift; sourceTree = "<group>"; };
 		7D24A2A229FD5CED00448BA7 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
-		7D24A2A429FD6FD300448BA7 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
 		7D4131AE29FBBAB4001E7C80 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		7D4131B029FBBBB3001E7C80 /* HelpNumberCategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpNumberCategoriesView.swift; sourceTree = "<group>"; };
 		7D53C7AB2A066797006D61CF /* ConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionView.swift; sourceTree = "<group>"; };
@@ -86,7 +75,6 @@
 		7D60262429EDF2DF00AA4D52 /* SchoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D60262829EDF2DF00AA4D52 /* SchoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoodUITests.swift; sourceTree = "<group>"; };
 		7D60262A29EDF2DF00AA4D52 /* SchoodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoodUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		7D68B8E929EF409D0081FE7C /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
 		7DBBC8B429F909860052BD68 /* SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyView.swift; sourceTree = "<group>"; };
 		7DBBC8B829FA6F4F0052BD68 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
 		7DBBC8BA29FA6F5F0052BD68 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
@@ -119,15 +107,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7D0323B12A0184940038C59B /* HelpNumbers */ = {
-			isa = PBXGroup;
-			children = (
-				7D0323B22A0184C50038C59B /* HelpNumbersList.swift */,
-				7D0323B82A01944A0038C59B /* HelpNumbers.swift */,
-			);
-			path = HelpNumbers;
-			sourceTree = "<group>";
-		};
 		7D0323BE2A019FFA0038C59B /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,15 +114,6 @@
 				7DCD9F4E2A1EC83600BC69D8 /* HelpNumbers.json */,
 			);
 			path = Resource;
-			sourceTree = "<group>";
-		};
-		7D0323C32A01A3B10038C59B /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				7D0323BA2A01946D0038C59B /* TollFreeNumbers.swift */,
-				7D0323C62A01A8220038C59B /* Data.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		7D0323CC2A01AF520038C59B /* Messages */ = {
@@ -203,8 +173,6 @@
 				7D60260829EDF2DE00AA4D52 /* SchoodApp.swift */,
 				7D60260C29EDF2DF00AA4D52 /* Assets.xcassets */,
 				7D68B8E829EF40830081FE7C /* Component */,
-				7D0323B12A0184940038C59B /* HelpNumbers */,
-				7D0323C32A01A3B10038C59B /* Models */,
 				7D60260E29EDF2DF00AA4D52 /* Preview Content */,
 				7D0323BE2A019FFA0038C59B /* Resource */,
 				7D60261329EDF2DF00AA4D52 /* Schood.xcdatamodeld */,
@@ -241,9 +209,7 @@
 		7D68B8E829EF40830081FE7C /* Component */ = {
 			isa = PBXGroup;
 			children = (
-				7D68B8E929EF409D0081FE7C /* Design.swift */,
 				7D24A2A229FD5CED00448BA7 /* CustomTabView.swift */,
-				7D24A2A429FD6FD300448BA7 /* CustomNavigationBar.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -424,23 +390,17 @@
 				7D60261229EDF2DF00AA4D52 /* Persistence.swift in Sources */,
 				7D53C7AC2A066797006D61CF /* ConnectionView.swift in Sources */,
 				7DBBC8B929FA6F4F0052BD68 /* StatisticView.swift in Sources */,
-				7D0323B92A01944A0038C59B /* HelpNumbers.swift in Sources */,
 				7D60260B29EDF2DE00AA4D52 /* ContentView.swift in Sources */,
 				7DBBC8B529F909860052BD68 /* SurveyView.swift in Sources */,
 				7D4131B129FBBBB3001E7C80 /* HelpNumberCategoriesView.swift in Sources */,
-				7D24A2A529FD6FD300448BA7 /* CustomNavigationBar.swift in Sources */,
 				7D60260929EDF2DE00AA4D52 /* SchoodApp.swift in Sources */,
 				7D1915A02A1EB8AB005459E4 /* HelpNumberSubCategoriesView.swift in Sources */,
 				7D057BC02A0D97D3003B4D44 /* HistoricSurveyView.swift in Sources */,
-				7D0323BB2A01946D0038C59B /* TollFreeNumbers.swift in Sources */,
 				7D0D1BA42A10F8AF001EF6B0 /* MessageView.swift in Sources */,
-				7D68B8EA29EF409D0081FE7C /* Design.swift in Sources */,
-				7D0323C72A01A8220038C59B /* Data.swift in Sources */,
 				7DBBC8BB29FA6F5F0052BD68 /* AlertView.swift in Sources */,
 				7D60261529EDF2DF00AA4D52 /* Schood.xcdatamodeld in Sources */,
 				7D24A2A329FD5CED00448BA7 /* CustomTabView.swift in Sources */,
 				7D19159E2A1EAF39005459E4 /* HelpNumberDetailView.swift in Sources */,
-				7D0323B32A0184C50038C59B /* HelpNumbersList.swift in Sources */,
 				7D1636A929F55DEA00580B83 /* HomePageView.swift in Sources */,
 				7D4131AF29FBBAB4001E7C80 /* ProfileView.swift in Sources */,
 			);

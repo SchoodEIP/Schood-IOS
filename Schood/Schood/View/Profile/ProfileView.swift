@@ -16,10 +16,10 @@ struct ProfileView: View {
         ScrollView {
             VStack(alignment: .center) {
                 
-                Image(systemName: "person.crop.circle")
-                    .scaleEffect(9)
+                Image("user_profile_png")
+                    .scaleEffect(1.3)
                     .foregroundColor(.customPurple)
-                    .padding(.top, UIScreen.main.bounds.height * 0.2)
+                    .padding(.top, UIScreen.main.bounds.height * 0.15)
                 
                 VStack {
                     
@@ -68,7 +68,7 @@ struct ProfileView: View {
                     
                 }
                 .textFieldStyle(OvalTextFieldStyle())
-                .padding(.top, UIScreen.main.bounds.height * 0.15)
+                .padding(.top, UIScreen.main.bounds.height * 0.1)
                 .padding(.horizontal, UIScreen.main.bounds.width * 0.1)
 
             }

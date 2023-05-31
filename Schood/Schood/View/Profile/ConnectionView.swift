@@ -17,14 +17,13 @@ struct ConnectionView: View {
     
     @State private var isLoginValid: Bool = false
     @State private var shouldShowLoginAlert: Bool = false
-
     
     var body: some View {
         NavigationView {
             VStack(alignment: .center) {
-                        
-// TODO: PUT LOGO HERE
-                    
+                
+                Image("logo_schood_1024x512")
+                    .padding(.top, UIScreen.main.bounds.height * 0.1)
                         
                 VStack {
                             
@@ -60,6 +59,13 @@ struct ConnectionView: View {
                     }
 
                     Spacer()
+                    
+                    Button("Password forgotten? click here") {
+                        
+                    }
+                        .font(.footnote)
+                        .foregroundColor(.customPurple)
+                        .padding(.bottom, UIScreen.main.bounds.height * 0.0001)
                             
                 }
                 .textFieldStyle(OvalTextFieldStyle())
@@ -68,7 +74,7 @@ struct ConnectionView: View {
             }
 //                )
         }
-        .navigationBarHidden(true)
+        .navigationBarBackButtonHidden(true)
     }
     
     func authenticateUser(email: String, password: String) {

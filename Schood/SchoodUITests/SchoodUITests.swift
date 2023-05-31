@@ -15,7 +15,7 @@ final class SchoodUITests: XCTestCase {
 
     override func tearDownWithError() throws {}
 
-    func testExample() throws {
+    func ConnectionTest() throws {
         let app = XCUIApplication()
         app.launch()
         
@@ -35,6 +35,10 @@ final class SchoodUITests: XCTestCase {
         
         let welcomeSentence = app.staticTexts["Surveys"]
         XCTAssert(welcomeSentence.exists, "  -----> SURVEYstatictext NOT FOUND")
+    }
+    
+    func GotoNumberTest() {
+        
     }
     
     func testLaunchPerformance() throws {

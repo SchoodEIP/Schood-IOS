@@ -25,9 +25,8 @@ struct CustomTabView: View {
             HelpNumberCategoriesView()
                 .tabItem { Label("Contact", systemImage: "list.bullet.circle") }
         }
+        .navigationBarBackButtonHidden(true)
         .accentColor(.customPurple)
-//        .onAppear() { UITabBar.appearance().barTintColor = UIColor(Color.white) }
-//        .shadow(color: .red, radius: 100)
     }
 }
 

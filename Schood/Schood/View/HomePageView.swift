@@ -8,9 +8,6 @@
 import SwiftUI
 
 struct HomePageView: View {
-    
-    init() {}
-    
     var body: some View {
         NavigationView {
             ScrollView {
@@ -118,6 +115,7 @@ struct HomePageView: View {
             .navigationBarItems(trailing: ProfileButton())
             
         }
+        .navigationBarBackButtonHidden(true)
     }
 }
 
