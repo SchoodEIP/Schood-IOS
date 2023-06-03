@@ -25,7 +25,7 @@ struct CustomTabView: View {
             HelpNumberCategoriesView()
                 .tabItem { Label("Contact", systemImage: "list.bullet.circle") }
         }
-        .navigationBarBackButtonHidden(true)
+        
         .accentColor(.customPurple)
     }
 }

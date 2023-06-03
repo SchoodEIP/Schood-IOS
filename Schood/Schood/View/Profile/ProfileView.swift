@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct ProfileView: View {
-    @State private var name:       String = ""
-    @State private var lastname:   String = ""
-    @State private var email:      String = ""
+    @State private var name:       String = "Mateo"
+    @State private var lastname:   String = "Deroche"
+    @State private var classe:     String = "Terminal"
+    @State private var email:      String = "student1@schood.fr"
     
     var body: some View {
         ScrollView {
@@ -25,23 +26,19 @@ struct ProfileView: View {
                     
 /// Name TextField
                     
-                    Group {
-                        Text("Name")
-                            .foregroundColor(.customPurple)
-                        
-                        TextField("Name", text: $name)
-                            .padding(.bottom)
-                    }
+                    Text("Name : \(name)")
+                        .foregroundColor(.customPurple)
+                        .padding(.bottom)
                     
 /// LastName TextField
+                    Text("Lastname : \(lastname)")
+                        .foregroundColor(.customPurple)
+                        .padding(.bottom)
                     
-                    Group {
-                        Text("Lastname")
-                            .foregroundColor(.customPurple)
-                        
-                        TextField("LastName", text: $lastname)
-                            .padding(.bottom)
-                    }
+/// Class TextField
+                    Text("Class : \(classe)")
+                        .foregroundColor(.customPurple)
+                        .padding(.bottom)
                     
 /// Email TextField
                     
@@ -49,7 +46,7 @@ struct ProfileView: View {
                         Text("Email")
                             .foregroundColor(.customPurple)
                         
-                        TextField("Email", text: $email)
+                        TextField("\(email)", text: $email)
                             .padding(.bottom)
                     }
                     

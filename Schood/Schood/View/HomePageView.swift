@@ -109,13 +109,11 @@ struct HomePageView: View {
                     
                 }
             }
-            .navigationBarBackButtonHidden(true)
             .background(Color.customWrittingColorInvert)
             .ignoresSafeArea(.all)
             .navigationBarItems(trailing: ProfileButton())
             
         }
-        .navigationBarBackButtonHidden(true)
     }
 }
 
