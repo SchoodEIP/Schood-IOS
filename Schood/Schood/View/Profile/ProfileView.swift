@@ -13,6 +13,8 @@ struct ProfileView: View {
     @State private var classe:     String = "Terminal"
     @State private var email:      String = "student1@schood.fr"
     
+    @State private var showAlert = false
+    
     var body: some View {
         ScrollView {
             VStack(alignment: .center) {
@@ -25,21 +27,28 @@ struct ProfileView: View {
                 VStack {
                     
 /// Name TextField
-                    
-                    Text("Name : \(name)")
-                        .foregroundColor(.customPurple)
-                        .padding(.bottom)
-                    
-/// LastName TextField
-                    Text("Lastname : \(lastname)")
-                        .foregroundColor(.customPurple)
-                        .padding(.bottom)
-                    
-/// Class TextField
-                    Text("Class : \(classe)")
-                        .foregroundColor(.customPurple)
-                        .padding(.bottom)
-                    
+                    Group {
+                        Text("Name : \(name)")
+                            .foregroundColor(.customPurple)
+                            .padding(.bottom)
+                        
+                        /// LastName TextField
+                        Text("Lastname : \(lastname)")
+                            .foregroundColor(.customPurple)
+                            .padding(.bottom)
+                        
+                        /// Class TextField
+                        Text("Class : \(classe)")
+                            .foregroundColor(.customPurple)
+                            .padding(.bottom)
+                    }
+                    .alert(isPresented: $showAlert, content: {
+                        Alert(title: Text("Cannot recover informations"))
+                    })
+                        .foregroundColor(.customWrittingColorInvert)
+                        .padding()
+                        .background(Color.customPurple)
+                        .cornerRadius(25)
 /// Email TextField
                     
                     Group {
