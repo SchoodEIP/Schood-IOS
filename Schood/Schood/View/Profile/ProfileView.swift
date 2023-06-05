@@ -45,10 +45,7 @@ struct ProfileView: View {
                     .alert(isPresented: $showAlert, content: {
                         Alert(title: Text("Cannot recover informations"))
                     })
-                        .foregroundColor(.customWrittingColorInvert)
-                        .padding()
-                        .background(Color.customPurple)
-                        .cornerRadius(25)
+                    
 /// Email TextField
                     
                     Group {
